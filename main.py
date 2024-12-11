@@ -6,6 +6,8 @@ from defines import *
 from marbleClass import *
 from effects import *
 
+#hi
+
 marbles = [] # Marbles array
 
 blueSpawnTime = random.uniform(BLUE_SPAWN_MIN,BLUE_SPAWN_MAX)
