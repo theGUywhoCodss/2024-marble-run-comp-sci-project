@@ -1,6 +1,6 @@
 FPS = 15
 W,H = 1280,720 # width, height, in pixels
-DURATION = 60 # duration of the clip, in seconds
+DURATION = 30 # duration of the clip, in seconds
 CONST_MAXMARBLES = 200
 
 # Spawn time constants
