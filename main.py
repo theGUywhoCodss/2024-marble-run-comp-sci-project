@@ -6,8 +6,6 @@ from defines import *
 from marbleClass import *
 from effects import *
 
-#hi
-
 marbles = [] # Marbles array
 
 blueSpawnTime = random.uniform(BLUE_SPAWN_MIN,BLUE_SPAWN_MAX)
@@ -173,5 +171,5 @@ def marble_collision(t):
                 obj.y = obj.radius
 
 clip = mpy.VideoClip(make_frame, duration=DURATION) # Make video
-clip.write_videofile("input.mp4", fps=FPS, codec='libx264', preset="ultrafast")
+clip.write_videofile("input.mp4", fps=FPS, codec='libx264', preset="placebo")
 print(len(marbles))
